@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
 
+//The main function is the starting point for all our flutter apps
 void main() {
-  runApp(const MaterialApp(home: Center(child: Text('Hello World'))));
+  //tells main to run an app
+  runApp(
+    //sees it should run a MaterialApp
+    const MaterialApp(
+      //home is where everything starts
+      //in home we want to see a text widget
+      //we added center and text as child of that
+      home: Center(child: Text('Hello World')),
+    ),
+  );
 }
-
-//Used with Android studio with xcode simulator of iphone12
